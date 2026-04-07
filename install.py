@@ -1,11 +1,13 @@
 #!/usr/bin/env python3
 """
 Script to set up a Python environment with mlx-lm and
-download the DeepSeek-R1-Distill-Qwen-32B-MLX model.
+download a DeepSeek-R1 distilled model for local inference.
+
+Supports multiple models — run again to install additional ones.
 
 Usage:
-    python install.py            # Install everything
-The    python install.py --clean    # Remove all generated files
+    python install.py            # Install a model (prompted to choose)
+    python install.py --clean    # Remove all generated files
 """
 
 import argparse
